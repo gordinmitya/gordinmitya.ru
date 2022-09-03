@@ -1,0 +1,47 @@
+baseURL: https://gordinmitya.ru/
+languageCode: en-us
+title: My New Hugo Site
+
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowWordCount: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowCodeCopyButtons: false
+
+  homeInfoParams:
+    Title: "PaperMod"
+    Content: >
+      Hello there
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/gordinmitya"
+    - name: telegram
+      url: "https://t.me/gordinmitya"
+    - name: github
+      url: "https://github.com/gordinmitya"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10

@@ -1,6 +1,6 @@
 baseURL: https://gordinmitya.ru/
 languageCode: en-us
-title: My New Hugo Site
+title: Dmitriy Gordin
 
 theme: "PaperMod"
 
@@ -16,8 +16,8 @@ minify:
 
 params:
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: light # auto, dark, light
+  disableThemeToggle: true
 
   ShowWordCount: true
   ShowReadingTime: true
@@ -27,21 +27,26 @@ params:
   ShowCodeCopyButtons: false
 
   homeInfoParams:
-    Title: "PaperMod"
+    Title: "Hey,"
     Content: >
-      Hello there
+      I'm a software engineer with 9 years of experience in industry and Master degree in CS.
+      Over the past 5 years specializing in image processing using C++, OpenCV, and OpenGL for efficient real-time applications.
+      I have hands-on experience in training, optimizing, and deploying neural networks from PyTorch to Android and iOS apps.
+
+
+      **Reach me out on:**
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/gordinmitya"
     - name: telegram
       url: "https://t.me/gordinmitya"
+    - name: twitter
+      url: "https://twitter.com/gordinmitya"
     - name: github
       url: "https://github.com/gordinmitya"
 
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
+# menu:
+#   main:
+#     - identifier: about
+#       name: About
+#       url: /about/
+#       weight: 10

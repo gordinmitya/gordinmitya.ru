@@ -37,12 +37,14 @@ params:
       **Reach me out on:**
 
   socialIcons:
-    - name: telegram
-      url: "https://t.me/gordinmitya"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/gordinmitya/"
     - name: twitter
       url: "https://twitter.com/gordinmitya"
     - name: github
       url: "https://github.com/gordinmitya"
+    - name: telegram
+      url: "https://t.me/gordinmitya"
 
 # menu:
 #   main:

@@ -1,6 +1,6 @@
 baseURL: https://gordinmitya.ru/
 languageCode: en-us
-title: Dmitriy Gordin
+title: Dmitry Gordin
 
 theme: "PaperMod"
 
@@ -29,12 +29,12 @@ params:
   homeInfoParams:
     Title: "Hey,"
     Content: >
-      I'm a software engineer with 9 years of experience in industry and Master degree in CS.
-      Over the past 5 years specializing in image processing using C++, OpenCV, and OpenGL for efficient real-time applications.
+      I’m a software engineer with 9 years of industry experience and a Master’s degree in Computer Science. 
+      For the past 5 years, I have specialized in image processing using C++, OpenCV, and OpenGL for efficient real-time applications. 
       I have hands-on experience in training, optimizing, and deploying neural networks from PyTorch to Android and iOS apps.
 
 
-      **Reach me out on:**
+      **Find me on:**
 
   socialIcons:
     - name: linkedin
